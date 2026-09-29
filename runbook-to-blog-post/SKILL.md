@@ -52,7 +52,11 @@ on fast-moving topics.
 ## 5. Review, then gate
 1. Run the **technical-review** skill on the draft. In a blind test every draft from every model had
    real command or code errors until reviewed.
-2. `python3 scripts/clean_text.py draft.html` must exit 0. It strips invisible characters (zero-width,
+2. `python3 scripts/readability.py draft.html --query "<target query>"` must exit 0: answer in the first
+   60 words, average sentence at most about 20 words, no paragraph over 120 words, reading ease 30 or more for
+   technical posts, at least 2 question-style headings, an FAQ, and lists or tables in long posts.
+   These serve human readers and answer engines (AEO/GEO) at the same time.
+3. `python3 scripts/clean_text.py draft.html` must exit 0. It strips invisible characters (zero-width,
    BOM, soft hyphens, bidi controls, odd spaces) in place. Exit 1 means em dashes to rephrase; exit 2
    means likely private details (real IPs, non-example emails, key-like strings).
 

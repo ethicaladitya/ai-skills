@@ -18,6 +18,11 @@ First person, the author talking to peers. Specific over grand. No hype ("game-c
 to announce"), no engagement bait ("Agree?"), no em dashes, no emoji strings. Claims only what the
 work actually shows; no invented numbers or outcomes.
 
+## Readability (checked by `readability.py --kind social` from runbook-to-blog-post)
+First line 30 words or fewer and able to stand alone as the hook; paragraphs of 70 words or fewer (list items count
+separately); average sentence around 16-20 words; reading ease 40 or more. At most one post a day, spaced about 20
+hours apart, in working hours: more is noise, and the audience stops reading.
+
 ## Before posting
 Run the post text through `clean_text.py` from the runbook-to-blog-post skill (it must exit 0) and
 check the link opens. If the platform or agent that posts it has an approval step, respect it.

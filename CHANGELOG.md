@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-09-29 (evening)
+- runbook-to-blog-post: `scripts/readability.py` gate (answer-first, sentence and paragraph length, reading ease, question headings, FAQ, lists).
+- linkedin-post: readability limits and posting cadence (one a day, about 20 hours apart).
+
 ## 2026-09-29 (later)
 - Added ai-search-visibility, schema-markup, local-seo, comparison-pages, site-structure-at-scale,
   conversion-basics and authority-building, written from our own review of current practice and
