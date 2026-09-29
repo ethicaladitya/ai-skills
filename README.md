@@ -12,6 +12,13 @@ adityashah.blog, courtsandcases.com and ariham.com.
 | [seo-measurement](seo-measurement/SKILL.md) | Correct GSC and GA4 numbers, and before/after measurement of individual SEO changes |
 | [linkedin-post](linkedin-post/SKILL.md) | Sharing work on LinkedIn in a credible, non-promotional voice |
 | [legal-content-india](legal-content-india/SKILL.md) | Accurate judgment explainers, process guides and fair legal-tech comparisons |
+| [ai-search-visibility](ai-search-visibility/SKILL.md) | Being cited in AI Overviews, ChatGPT, Claude and Perplexity: the right crawler per claim, quotable pages, entity signals |
+| [schema-markup](schema-markup/SKILL.md) | JSON-LD by page type, validation, and which types are pointless or deprecated |
+| [local-seo](local-seo/SKILL.md) | City and country visibility for service businesses without doorway pages |
+| [comparison-pages](comparison-pages/SKILL.md) | Honest vs and alternatives pages with verified, dated data |
+| [site-structure-at-scale](site-structure-at-scale/SKILL.md) | Hierarchy, URLs, hubs, internal links and programmatic pages at scale |
+| [conversion-basics](conversion-basics/SKILL.md) | Turning service-page visitors into leads |
+| [authority-building](authority-building/SKILL.md) | White-hat links and mentions: destinations first, directories, PR, assets |
 | [agent-ops-hygiene](agent-ops-hygiene/SKILL.md) | Cheap, observable, self-correcting agent loops, and the traps that break unattended runs |
 
 ## Install

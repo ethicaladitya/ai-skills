@@ -38,6 +38,17 @@ Replace every private detail with a placeholder: IPs with `203.0.113.x` / `198.5
 `192.0.2.x`, domains with `example.com`, people and companies with roles ("the client", "a hosting
 provider"). Remove internal-only procedures entirely.
 
+## Quality bar (people-first content)
+Before the gates, the draft must pass Google's Who / How / Why test:
+- **Who** wrote it? A visible byline and an author page with real credentials.
+- **How** was it made? First-hand evidence from the note: real commands, real decisions, real results.
+  Disclose AI assistance where readers would reasonably want to know.
+- **Why** does it exist? To help the reader do the task, not to fill a keyword or word count.
+
+Signs of low-quality AI content to remove: generic phrasing, no original insight, the same structure as
+every other post, missing author, factual errors. Show the publish and "updated" dates, and refresh posts
+on fast-moving topics.
+
 ## 5. Review, then gate
 1. Run the **technical-review** skill on the draft. In a blind test every draft from every model had
    real command or code errors until reviewed.

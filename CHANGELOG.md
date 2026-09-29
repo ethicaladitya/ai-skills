@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-29 (later)
+- Added ai-search-visibility, schema-markup, local-seo, comparison-pages, site-structure-at-scale,
+  conversion-basics and authority-building, written from our own review of current practice and
+  primary-source docs (crawler and schema facts from OpenAI, Google and Anthropic documentation).
+- runbook-to-blog-post: people-first quality bar (Who / How / Why) and low-quality AI content markers.
+
 ## 2026-09-29
 - First release: runbook-to-blog-post (with `clean_text.py`), technical-review, wordpress-safe-changes,
   seo-measurement, linkedin-post, legal-content-india, agent-ops-hygiene.
