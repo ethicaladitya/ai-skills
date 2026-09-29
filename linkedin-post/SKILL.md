@@ -23,6 +23,13 @@ First line 30 words or fewer and able to stand alone as the hook; paragraphs of 
 separately); average sentence around 16-20 words; reading ease 40 or more. At most one post a day, spaced about 20
 hours apart, in working hours: more is noise, and the audience stops reading.
 
+## Image
+Every post carries one: posts with an image get far more reach than text-only ones. Default to the linked
+page's own share image (its `og:image` or featured image). An image from another site is fine only after a
+human or editorial check: on topic, clean, no watermark or heavy third-party branding. If a share preview
+shows no picture, check the page's `og:image` first; the SEO plugin may have built the page's record before
+the featured image was set.
+
 ## Before posting
 Run the post text through `clean_text.py` from the runbook-to-blog-post skill (it must exit 0) and
 check the link opens. If the platform or agent that posts it has an approval step, respect it.
