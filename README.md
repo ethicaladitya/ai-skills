@@ -28,8 +28,11 @@ directory to install elsewhere, e.g. `./install.sh ~/.hermes/skills/aditya` or a
 ## How skills are maintained
 - Each skill is small, specific and evidence-based: rules come from real incidents and tests, noted
   with dates where useful.
-- The portfolio agent (repo `aditya-hermes-setup`) keeps a `LESSONS.md`. Once a month it promotes
-  general lessons into these skills, and records each change in [CHANGELOG.md](CHANGELOG.md).
+- **Daily:** the portfolio agent (repo `aditya-hermes-setup`) folds newly verified, general lessons
+  into these skills and removes rules proven wrong, committing locally. It skips at no cost when
+  nothing changed. Every change is logged in [CHANGELOG.md](CHANGELOG.md).
+- **Every 15 days (1st and 16th):** a no-AI job validates every skill (frontmatter, no em dashes, no
+  real IPs) and pushes the accumulated commits here.
 - Site-specific details (hosts, IDs, brand rules) stay in that repo, never here.
 - No secrets, hostnames or client data in this repo.
 
