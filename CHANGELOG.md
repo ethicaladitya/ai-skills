@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-03
+- wordpress-safe-changes: Yoast redirects need both options, sitemap cache clear, generate FAQ block JSON with an encoder.
+
 ## 2026-09-29 (evening)
 - runbook-to-blog-post: `scripts/readability.py` gate (answer-first, sentence and paragraph length, reading ease, question headings, FAQ, lists).
 - linkedin-post: readability limits and posting cadence (one a day, about 20 hours apart).

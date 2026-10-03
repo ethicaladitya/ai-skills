@@ -50,6 +50,9 @@ Work from the live request, not from WP-CLI (CLI runs a different code path).
 
 ## Yoast
 Title `_yoast_wpseo_title`, description `_yoast_wpseo_metadesc`, focus keyword `_yoast_wpseo_focuskw`.
+- **Yoast Premium 301s live in two options.** Adding to `wpseo-premium-redirects-base` alone did nothing; the front end reads `wpseo-premium-redirects-export-plain` (keyed by origin slug). Back up both, update both, purge the cache, then `curl -I` the old URL. (2026-10-03)
+- **Yoast caches its sitemaps.** After publishing, call `WPSEO_Sitemaps_Cache::clear()` or the new page is missing from the sitemap. (2026-10-03)
+- **Generate block-comment JSON with a JSON encoder** (escape `<`, `>`, `--`), re-parse it before upload, and check the live page's FAQ question count; hand-written JSON silently drops the FAQ block. (2026-10-03)
 
 ## Content traps
 - **Never paste `<meta>` tags or JSON-LD into post content** (Custom HTML blocks). It's invalid in the
