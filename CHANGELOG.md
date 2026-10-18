@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-18
+- agent-ops-hygiene: reasoning-model token caps, claim a task before building, absolute worktree paths.
+
 ## 2026-10-03
 - wordpress-safe-changes: Yoast redirects need both options, sitemap cache clear, generate FAQ block JSON with an encoder.
 

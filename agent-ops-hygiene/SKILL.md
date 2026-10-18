@@ -34,3 +34,10 @@ the same commit: one line of what happened, one line of the rule. Promote genera
 - **Secrets:** scripts read tokens themselves and never print them; the model sees statuses, not values.
 - **Headless Claude Code:** `claude -p ... --model <m> --output-format json` gives `result`, `session_id`,
   `total_cost_usd` and `num_turns`. The transcript is at `~/.claude/projects/<cwd-with-dashes>/<session_id>.jsonl`.
+- **Reasoning models count thinking in the token cap.** A call with `max_completion_tokens` 4000 spent it all on
+  reasoning and returned empty text with finish_reason `length`, and nothing errored (2026-10-18). Add headroom
+  over the answer size, treat an empty reply as a failure, and print output size in benchmarks, not only time.
+- **Claim a task before building it, from any session.** Two sessions built the same backlog item from one
+  ticket and had to be merged by hand (2026-10-18). Set status `doing` with "Claimed by <session>, <date>" and sync
+  the tracker before writing code.
+- **`git worktree add <relative path>` resolves inside the repo.** Always pass an absolute path (2026-10-18).
