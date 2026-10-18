@@ -23,20 +23,8 @@ adityashah.blog, courtsandcases.com and ariham.com.
 
 ## Agents
 
-`agents/` holds a general-purpose fleet for any website or app, installed into `~/.claude/agents` (all projects).
-A project's own `.claude/agents/<name>.md` overrides one of the same name, and its AGENTS.md/CLAUDE.md rules win.
-
-| Agent | Role | Calls |
-|---|---|---|
-| [ceo](agents/ceo.md) | What to do next and why; Chair asks for risky calls | project-manager |
-| [project-manager](agents/project-manager.md) | Plan, then drive build → test → review, max 2 fix rounds | developer, tester, code-reviewer, security-analyst |
-| [developer](agents/developer.md) | Implements on a named branch with a test | tester (sanity check) |
-| [tester](agents/tester.md) | Runs tests and the real app against criteria | none |
-| [code-reviewer](agents/code-reviewer.md) | Read-only correctness review, APPROVE/CHANGES | none |
-| [security-analyst](agents/security-analyst.md) | Read-only security review, PASS/ISSUES | none |
-
-Nesting is at most 3 levels below the main session (`CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH`), so ceo → project-manager → developer
-is the deepest chain; below that the Agent tool is withheld.
+The subagent team (ceo, project-manager, developer, wordpress, tester, code-reviewer, security-analyst) lives in
+its own repo, [sudo-squad](https://github.com/ethicaladitya/sudo-squad), as a Claude Code plugin.
 
 ## Install
 

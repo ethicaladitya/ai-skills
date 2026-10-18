@@ -18,16 +18,3 @@ for dir in "$SRC"/*/; do
   ln -sfn "${dir%/}" "$target"
   echo "link  $name -> $target"
 done
-
-AGENTS_DEST="${2:-$HOME/.claude/agents}"
-mkdir -p "$AGENTS_DEST"
-for f in "$SRC"/agents/*.md; do
-  [ -f "$f" ] || continue
-  target="$AGENTS_DEST/$(basename "$f")"
-  if [ -e "$target" ] && [ ! -L "$target" ]; then
-    echo "skip  agent $(basename "$f") (a real file already exists at $target)"
-    continue
-  fi
-  ln -sfn "$f" "$target"
-  echo "link  agent $(basename "$f") -> $target"
-done
