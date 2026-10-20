@@ -17,7 +17,7 @@ description: Choose, generate and validate Schema.org JSON-LD structured data (O
 ## Pick by page type
 | Page | Types |
 |---|---|
-| Home | `WebSite` (with `SearchAction` if the site has search), `Organization` (logo, `sameAs`) |
+| Home | `WebSite` (name, url; `SearchAction` is optional: Google retired the sitelinks search box in Nov 2024, so it earns no rich result), `Organization` (logo, `sameAs`) |
 | Blog post | `BlogPosting` or `Article` (headline, author Person, datePublished, dateModified, image), `BreadcrumbList` |
 | Author or About | `Person` with `sameAs` and `jobTitle`; `ProfilePage` for author pages |
 | Service page | `Service` (`provider` = Organization, `areaServed`), `BreadcrumbList` |

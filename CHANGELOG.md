@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-20
+- schema-markup: SearchAction no longer earns a rich result (sitelinks search box retired Nov 2024).
+
 ## 2026-10-18
 - agent-ops-hygiene: reasoning-model token caps, claim a task before building, absolute worktree paths.
 
