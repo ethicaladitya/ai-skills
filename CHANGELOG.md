@@ -1,6 +1,7 @@
 # Changelog
 
 ## 2026-10-20
+- website-legal-basics (new): legal and trust basics for business sites (privacy, terms, refund, DPDP Act and Rules 2025 dates, AdSense EEA CMP, form notices, accessibility, honest claims) with a read-only sweep script.
 - schema-markup: SearchAction no longer earns a rich result (sitelinks search box retired Nov 2024).
 - seo-measurement: two-round stop rule per page, kill criteria per initiative, compute-don't-eyeball and matching windows.
 - ai-search-visibility: retrieved/cited/mentioned/recommended ladder, fixed question set with controls, one owning page per fact.

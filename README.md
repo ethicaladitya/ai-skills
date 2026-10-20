@@ -19,6 +19,7 @@ adityashah.blog, courtsandcases.com and ariham.com.
 | [site-structure-at-scale](site-structure-at-scale/SKILL.md) | Hierarchy, URLs, hubs, internal links and programmatic pages at scale |
 | [conversion-basics](conversion-basics/SKILL.md) | Turning service-page visitors into leads |
 | [authority-building](authority-building/SKILL.md) | White-hat links and mentions: destinations first, directories, PR, assets |
+| [website-legal-basics](website-legal-basics/SKILL.md) | Privacy, terms, refund, consent, DPDP, form notices, accessibility and honest claims every business site needs; includes `scripts/legal_sweep.py` |
 | [agent-ops-hygiene](agent-ops-hygiene/SKILL.md) | Cheap, observable, self-correcting agent loops, and the traps that break unattended runs |
 
 ## Agents
