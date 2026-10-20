@@ -37,6 +37,10 @@ for host in sys.argv[1:]:
         fields = re.findall(r'name="([^"_][^"]*)"', f)
         print('  form', fields[:8], 'privacy notice:', bool(re.search(r'privacy|consent', f, re.I)))
     print('  claims to verify', sorted({m.lower().strip() for m in re.findall(CLAIMS, h, re.I)})[:6] or 'none')
+    for p in ['/error_log', '/debug.log', '/wp-content/debug.log', '/.env']:
+        s, _ = get(f'https://{host}{p}')
+        if s == 200:
+            print('  PUBLIC FILE (block it)', p)
     for p in ['/privacy-policy/', '/privacy/', '/privacy.html', '/terms/', '/terms-of-service/', '/terms.html']:
         s, _ = get(f'https://{host}{p}')
         if s == 200:

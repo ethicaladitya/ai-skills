@@ -68,6 +68,11 @@ one `h1`, lang attribute, captions on video. Check with Lighthouse/axe on each t
 - Images: own, licensed, or properly attributed; record the source. Stock "team" photos are not your team.
 - Legal services: advocates may not solicit work (Bar Council of India Rule 36); keep legal-tech copy about the product.
 
-## 8. Keep it true
+## 8. Nothing private served publicly
+While auditing, curl `/error_log`, `/debug.log`, `/wp-content/debug.log`, `/.env` and backup files (`*.sql`, `*.zip`)
+on the web root: expect 403/404. Shared hosts (Hostinger) write PHP's `error_log` into `public_html`, where it leaks
+paths and stack traces; deny it in `.htaccess` (`<FilesMatch "(^error_log|\.log)$"> Require all denied </FilesMatch>`).
+
+## 9. Keep it true
 Put "Last updated" on every policy and review it whenever a tracker, form, processor or price changes.
 Log each policy change with what changed and why.
