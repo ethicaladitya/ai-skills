@@ -29,6 +29,14 @@ Readers on these pages are close to a decision, and they will check your claims.
   for real strengths and complaints, and quote them fairly.
 - Re-verify pricing and major features every quarter, and fully refresh once a year.
 - Never invent prices, features, limits or customer quotes. Never disparage, and don't use their logos.
+- **Absent from their page is not absent from their product (2026-10-20).** Write "not listed on their
+  <page> as of <date>" unless their docs or a hands-on trial confirm it is missing. A single visit can't
+  support claims about history ("hasn't changed in years"). State what they do, not why; keep their facts,
+  your reading of them and your recommendation visibly separate.
+- **Claim audit (2026-10-20):** before republishing, mark each competitor claim Current (still true, re-dated),
+  Changed (now wrong; note what it says now), Unverifiable (nothing current confirms or refutes it; soften to
+  "not listed as of <date>" or cut) or Overclaimed (asserted with no source; rewrite to the evidence or cut).
+  Fix public pages first, then the data file so every page inherits the fix.
 
 ## SEO
 - One page per comparison intent; titles like "<A> vs <B>: <honest one-line verdict> (<Year>)".

@@ -27,10 +27,18 @@ Outreach is sent by a real person from their own account. Agents draft; people s
    These earn links without asking.
 6. **Digital PR,** in several modes:
    - **Inbound:** answer journalist requests (Qwoted, Featured, Help a B2B Writer) fast, in under 200 words.
+     Triage daily (2026-10-20): keep only requests you can answer on the record from direct experience or
+     data, for an outlet your audience reads, inside the deadline; expect a few keepers out of dozens. Reply:
+     one line of context, one line of credential, the answer in two sentences, one concrete example or number
+     (the quotable part), an offer to expand, ready-to-paste attribution and contact. Log each (date, outlet,
+     topic, outcome) and review which topics convert after about 30.
    - **Reactive:** add a sharp, expert angle to trending news within hours.
    - **Proactive:** pitch real stories (data, a strong opinion, a milestone, a client's before and after).
    - **Owned:** the press page above.
 7. **Mention reclamation:** find unlinked mentions of the brand or person and politely ask for a link.
+   **Moved and broken links (2026-10-20):** external links that point at URLs now 404, unpublished or moved
+   (check Search Console's linking pages and the 404 log) are the cheapest links to win back. Redirect the dead
+   URL to its closest live equivalent first, then ask the linking site to update the URL where it matters.
 8. **Community and talks:** conference and meetup talks with slides and a recap post, and genuine,
    helpful participation where the audience is. Answer; don't advertise.
 
@@ -38,6 +46,10 @@ Outreach is sent by a real person from their own account. Agents draft; people s
 Does the recipient cover this topic (check their last 5 pieces)? Is there a clear hook? Could they write the
 story from this email alone (data, quote, contact)? Is the subject line specific? Is it under 150 words?
 Is it free of hype words? Is the ask clear?
+
+**Teardown offers (2026-10-20):** when the pitch is expertise, the first message asks permission and carries no
+link: one specific thing noticed on their page, and an offer to send the rest. Only after a yes, send a short,
+page-specific review with a few testable ideas, checked by a human expert. Low volume by design.
 
 ## Measure
 Live links and their quality, referral traffic, brand-search growth, citations in AI answers, and leads

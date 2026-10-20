@@ -12,6 +12,12 @@ description: Write a LinkedIn post that shares a blog post or piece of work in t
 - One concrete takeaway the reader can use today (a command, a check, a decision rule).
 - The link near the end, with one line on what they'll get from it.
 - At most 3 specific hashtags (#WordPress #DevOps #SysAdmin), never a wall of tags.
+- **Link placement (2026-10-20):** the link stays in the post body. "Link in the first comment" is common advice
+  but untested for us; adopt it only if an alternating test over several posts shows more impressions and
+  clicks per post, and only if the posting tool can add the comment.
+- **Document carousel (2026-10-20):** for a list, checklist or step-by-step piece, a PDF document post can beat
+  text plus link. One idea per slide, the same layout on every slide, slide 1 a standalone hook (an exact count
+  works well); the text above it is a hook of its own, not "see attached". Judge it on saves and completion.
 
 ## Voice
 First person, the author talking to peers. Specific over grand. No hype ("game-changer", "excited

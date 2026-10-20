@@ -2,6 +2,12 @@
 
 ## 2026-10-20
 - schema-markup: SearchAction no longer earns a rich result (sitelinks search box retired Nov 2024).
+- seo-measurement: two-round stop rule per page, kill criteria per initiative, compute-don't-eyeball and matching windows.
+- ai-search-visibility: retrieved/cited/mentioned/recommended ladder, fixed question set with controls, one owning page per fact.
+- comparison-pages: "not listed" is not "doesn't have", and a Current/Changed/Unverifiable/Overclaimed claim audit.
+- authority-building: journalist-request triage and reply shape, moved and broken link reclamation, permission-first teardown offers.
+- agent-ops-hygiene: separate check cadence from act condition; log checked=/acted= per run.
+- linkedin-post: link stays in the body until a first-comment test wins; PDF document carousel format.
 
 ## 2026-10-18
 - agent-ops-hygiene: reasoning-model token caps, claim a task before building, absolute worktree paths.

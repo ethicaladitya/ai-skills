@@ -37,6 +37,9 @@ for AI features. Check it before assuming a site is eligible.
 - Primary sources cited inline; visible author, publish date and updated date.
 - Key content in the server-rendered HTML. Many AI crawlers don't run JavaScript.
 - Keep pages fresh: pages that answer changing questions need visible updates.
+- **One owning page per fact (2026-10-20):** each fact a buyer asks about (price, limits, coverage, process)
+  lives on one page, and every other mention agrees with it and links there. Improve or merge before creating;
+  never spin up a page per query variant.
 
 ## 3. Entity signals (who you are)
 AI systems recommend entities they can identify and see discussed elsewhere.
@@ -50,6 +53,14 @@ AI systems recommend entities they can identify and see discussed elsewhere.
 - GA4: sessions from `chatgpt.com`, `perplexity.ai`, `gemini.google.com`, `copilot.microsoft.com`,
   `claude.ai`, tracked separately and trended. On some sites these outgrow Google clicks.
 - Spot-check target questions in the assistants themselves and note who gets cited. Log the date; answers change.
+- **Report the ladder, not one number (2026-10-20):** retrieved (read but not credited, mostly invisible) ->
+  cited as a source -> named in the text -> recommended as an option, plus the tone of the mention. Citations
+  come from useful pages; recommendations mostly follow what the rest of the web says about you. Rising
+  citations with flat recommendations means the web doesn't yet back the claims up.
+- **Fixed question set with controls (2026-10-20):** keep a stable core set that changes only by versioning,
+  one question per intent (merge wording variants and spend the budget on repeat runs instead). Add controls:
+  a brand-name question you should always win and an unrelated one you should never appear in. If a control
+  moves, the tool or the engine changed, not your work.
 
 ## Optional extras (low priority)
 `/llms.txt` costs little but has no confirmed effect on Google; don't spend real effort on it.

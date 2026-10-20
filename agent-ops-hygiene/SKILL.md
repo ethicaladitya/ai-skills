@@ -16,6 +16,10 @@ description: Run autonomous or scheduled AI agents cheaply and reliably, coverin
   and why. A missing report is an incident, not "healthy".
 - Log scheduled skips ("not due") separately from misses, so dashboards can tell them apart.
 - Keep each run's transcript (session id, cost, turns) where the owner can read it.
+- **Check often, act rarely (2026-10-20):** give each loop a check cadence matched to how fast its signal
+  changes and a separate, explicit act condition with a cooldown. Most runs should end "checked, nothing to do".
+- **Log `checked=N acted=M` per run (2026-10-20):** weeks of `acted=0` that nobody misses, or acting on every
+  run (chasing noise), both mean the loop needs rethinking; two acts on one item means the dedupe is broken.
 
 ## Learn from mistakes
 Keep a `LESSONS.md` that every run reads first. When a mistake is found and fixed, add the lesson in

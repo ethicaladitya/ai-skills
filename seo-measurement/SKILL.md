@@ -28,6 +28,11 @@ outgrow Google clicks.
 - **Auth fails silently if you let it:** check auth first in the collector (`creds.refresh`); OAuth apps
   in Google Cloud "Testing" mode expire refresh tokens after about 7 days, so publish the consent screen.
 - Keep collection deterministic (scripts on a schedule). Spend model tokens on interpretation only.
+- **Compute, don't eyeball (2026-10-20):** every total, rate and delta comes from a script over the rows, and
+  each headline number is checked a second way (another grouping or a reconciliation total). A claim about
+  one page or one week uses that segment's own numbers, not its group's.
+- **Same window on both sides (2026-10-20):** a rate divides numerator and denominator over the same closed
+  period. Items still inside their observation window are pending, not failures; leave them out and say so.
 
 ## Did this change work? (per page)
 For each change, log the exact page URL and date. After at least 7 days of post-change data (plus 3 days of lag):
@@ -38,3 +43,7 @@ For each change, log the exact page URL and date. After at least 7 days of post-
 - Roll verdicts into a playbook weekly ("title rewrites on position 4–15 pages work on site X"), and
   revert or rethink changes that stay *worse* after 14+ days.
 One page and one change is noisy; trust the pattern across several, not a single verdict.
+- **Stop rule (2026-10-20):** after two edit rounds on the same page with no movement, stop editing it. The
+  limit is likely intent (Google wants another kind of page) or authority, which more on-page work won't fix.
+- **Kill criteria (2026-10-20):** every initiative states up front the metric, the threshold and the date at
+  which it gets dropped or reworked, so a stalled effort ends on schedule instead of drifting.
