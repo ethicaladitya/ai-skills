@@ -120,3 +120,26 @@ register suits launches, platform arguments, case studies and roundups.
 5. A customer or community member is credited by name only with permission and real words.
 6. One CTA, one sign-off, no closing sales paragraph.
 7. `clean_text.py` from `runbook-to-blog-post` exits 0 (no em dashes, no invisible characters).
+
+## 8. What to adopt when you are small (one product, one expert blog, one agency)
+Adopted 2026-10-21 for a portfolio of a legal-research product, a personal engineering blog and a small agency.
+In priority order, because each costs almost nothing and compounds:
+1. **Product posts as help.** Open on the user's pain scene, explain the mechanism, state what the product does
+   not do. Readers learn something even if they never sign up, and the post earns links a feature page never will.
+2. **A founder-signed "what we fixed this month" post** from the real changelog: numbered fixes with cause and
+   effect, what's next, "keep telling us". It costs one weekly slot, builds more trust than any launch, and turns
+   users into bug reporters.
+3. **The "nothing wrong with them" line in every comparison,** plus a dated price list of all the rivals at once.
+   Compare on a dimension you chose and say why it matters to the reader. The rival's weakness is always a cost to
+   the reader ("a subscription you pay for twice"), never an adjective about the rival.
+4. **Be generous to the official or free option** (the government portal, the open-source core, the free tool) before
+   showing your easier path. Readers trust a vendor that praises the thing it competes with.
+5. **Name the bigger names you work with** as a feature (the platforms, tools and payment or hosting providers a
+   reader already uses). Compatibility with a known name is a selling point, so say the name.
+6. **Guest and customer posts under their own byline, doubts kept.** A case study that lists where humans still
+   supervise is believed; a glowing one is not. Link both ways.
+7. **Give code away.** Scripts and checks from your own work go on GitHub with "take it and make it better".
+8. **Benchmarks only with method, units and a "what this does not say" note** before the ratios.
+
+Leave behind: the emoji and in-jokes when the audience is professional (lawyers, buyers), unsourced market statistics
+as filler, and ranking yourself first in a roundup without a reason the reader can check.
