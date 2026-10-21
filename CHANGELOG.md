@@ -1,7 +1,7 @@
 # Changelog
 
 ## 2026-10-21
-- vendor-blog-voice (new): house voice, product-as-help, competitor and supporter framing, eight post templates and a priority list of what a small product, blog or agency should adopt, from twelve WPMU DEV and Elementor posts read on 2026-10-21.
+- vendor-blog-voice (new): house voice, product-as-help, competitor and supporter framing, eight post templates and a priority list of what a small product, blog or agency should adopt, from twelve WPMU DEV and Elementor posts read on 2026-10-21. Correction: a free rival is still a rival; only what you build on gets the ally treatment.
 
 ## 2026-10-20
 - Added ui-anti-slop: patterns that make a site look AI-generated (30-item list from @abhijayarora_, grouped by colour, type, layout, copy and missing pieces), with "existing design system wins".

@@ -132,8 +132,9 @@ In priority order, because each costs almost nothing and compounds:
 3. **The "nothing wrong with them" line in every comparison,** plus a dated price list of all the rivals at once.
    Compare on a dimension you chose and say why it matters to the reader. The rival's weakness is always a cost to
    the reader ("a subscription you pay for twice"), never an adjective about the rival.
-4. **Be generous to the official or free option** (the government portal, the open-source core, the free tool) before
-   showing your easier path. Readers trust a vendor that praises the thing it competes with.
+4. **Be generous to the official or open-source option you build on** (the government portal, the open-source core)
+   before showing your easier path. Readers trust a vendor that praises what it depends on. A free rival is still a
+   rival: it gets the fair-comparison treatment of point 3, not the ally treatment of this one or point 5.
 5. **Name the bigger names you work with** as a feature (the platforms, tools and payment or hosting providers a
    reader already uses). Compatibility with a known name is a selling point, so say the name.
 6. **Guest and customer posts under their own byline, doubts kept.** A case study that lists where humans still
