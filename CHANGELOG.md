@@ -1,5 +1,8 @@
 # Changelog
 
+## 2026-10-21
+- vendor-blog-voice (new): house voice, product-as-help, competitor and supporter framing and eight post templates, from twelve WPMU DEV and Elementor posts read on 2026-10-21.
+
 ## 2026-10-20
 - Added ui-anti-slop: patterns that make a site look AI-generated (30-item list from @abhijayarora_, grouped by colour, type, layout, copy and missing pieces), with "existing design system wins".
 

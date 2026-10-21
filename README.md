@@ -20,6 +20,7 @@ adityashah.blog, courtsandcases.com and ariham.com.
 | [conversion-basics](conversion-basics/SKILL.md) | Turning service-page visitors into leads |
 | [authority-building](authority-building/SKILL.md) | White-hat links and mentions: destinations first, directories, PR, assets |
 | [website-legal-basics](website-legal-basics/SKILL.md) | Privacy, terms, refund, consent, DPDP, form notices, accessibility and honest claims every business site needs; includes `scripts/legal_sweep.py` |
+| [vendor-blog-voice](vendor-blog-voice/SKILL.md) | Writing a product or company blog the way WPMU DEV and Elementor do: warm house voice, product posts as help, competitors named but never attacked, customers and community promoted as allies |
 | [agent-ops-hygiene](agent-ops-hygiene/SKILL.md) | Cheap, observable, self-correcting agent loops, and the traps that break unattended runs |
 
 ## Agents
